@@ -1,5 +1,14 @@
 @media all and (max-width: 1280px) {
   body, html {
+    height: 4000px;
+    width: 1920px;
+    font-size: 404px;
+    line-height: 494px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  body, html {
     height: 3000px;
     width: 1280px;
     font-size: 291px;
