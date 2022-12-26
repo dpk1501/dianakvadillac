@@ -28,6 +28,7 @@
     height: 361vh;
     line-height: 294px;
   }
+}
 
 /* экран для 834 */
 @media screen (min-width: 414px) and (max-width: 834px) {
@@ -106,7 +107,6 @@
 .add-white-3 {
   border: 3px solid #000000;
 }
-
 }
 /* экран для 414 */
 @media screen (min-width: 320px) and (max-width: 414px) {
@@ -126,7 +126,5 @@
   body, html {
   height: 144vh;
   line-height: 79px;
-}
-}
 }
 }
