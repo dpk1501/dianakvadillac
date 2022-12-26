@@ -31,6 +31,7 @@
 
 /* экран для 834 */
 @media screen (min-width: 414px) and (max-width: 834px) {
+
   body, html {
   height: 303vh;
   line-height: 238px;
@@ -112,6 +113,11 @@
   body, html {
   height: 188vh;
   line-height: 108px;
+}
+
+.add-yellow {
+  width: 66%;
+  height:
 }
 }
 
