@@ -1,5 +1,5 @@
 /* экран для 1920 */
-@media all and (min-width: 1440px) and (max-width: 1920px) {
+@media screen (min-width: 1440px) and (max-width: 1920px) {
   body, html {
     height: 578vh;
     line-height: 494px;
@@ -7,7 +7,7 @@
 }
 
 /* экран для 1440 */
-@media all and (min-width: 1280px) and (max-width: 1440px) {
+@media screen (min-width: 1280px) and (max-width: 1440px) {
   body, html {
     height: 477vh;
     line-height: 409px;
@@ -15,7 +15,7 @@
 }
 
 /* экран для 1280 */
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media screen (min-width: 1024px) and (max-width: 1280px) {
   body, html {
     height: 434vh;
     line-height: 356px;
@@ -23,15 +23,14 @@
 }
 
 /* экран для 1024 */
-@media all and (min-width: 834px) and (max-width: 1024px) {
+@media screen (min-width: 834px) and (max-width: 1024px) {
   body, html {
     height: 361vh;
     line-height: 294px;
   }
-}
 
 /* экран для 834 */
-@media all and (min-width: 414px) and (max-width: 834px) {
+@media screen (min-width: 414px) and (max-width: 834px) {
   body, html {
   height: 303vh;
   line-height: 238px;
@@ -93,29 +92,35 @@
 .txt3 {
   left: 52%;
   top: 58%;
-}.txt4 {
+}
+.txt4 {
   left: 63%;
   top: 58%;
 }
-}.txt5 {
+.txt5 {
   left: 75%;
   top: 58%;
 }
+
+.add-white-3 {
+  border: 3px solid #000000;
+}
+
+}
 /* экран для 414 */
-@media all and (min-width: 320px) and (max-width: 414px) {
+@media screen (min-width: 320px) and (max-width: 414px) {
   body, html {
-  /* width: 414px; */
-  height: 1300px;
-  /* font-size: 88px; */
+  height: 188vh;
   line-height: 108px;
 }
 }
 
 /* экран для 320 */
-@media all and (max-width: 320px) {
+@media screen (max-width: 320px) {
   body, html {
   height: 144vh;
   line-height: 79px;
+}
 }
 }
 }
