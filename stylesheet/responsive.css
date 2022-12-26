@@ -1,54 +1,120 @@
-@media all and (max-width: 1920px) {
+/* экран для 1920 */
+@media all and (min-width: 1440px) and (max-width: 1920px) {
   body, html {
-    height: 4000px;
-    width: 1920px;
-    font-size: 404px;
+    height: 578vh;
     line-height: 494px;
   }
 }
 
-@media all and (max-width: 1280px) {
+/* экран для 1440 */
+@media all and (min-width: 1280px) and (max-width: 1440px) {
   body, html {
-    height: 3000px;
-    width: 1280px;
-    font-size: 291px;
+    height: 477vh;
+    line-height: 409px;
+  }
+}
+
+/* экран для 1280 */
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  body, html {
+    height: 434vh;
     line-height: 356px;
   }
 }
 
-@media all and (max-width: 1024px) {
+/* экран для 1024 */
+@media all and (min-width: 834px) and (max-width: 1024px) {
   body, html {
-    height: 2500px;
-    width: 1024px;
-    font-size: 240px;
+    height: 361vh;
     line-height: 294px;
   }
 }
 
-@media all and (max-width: 834px) {
+/* экран для 834 */
+@media all and (min-width: 414px) and (max-width: 834px) {
   body, html {
-  width: 834px;
-  height: 289vh;
-  font-size: 195px;
+  height: 303vh;
   line-height: 238px;
 }
 
+.add-white {
+  border: 3px solid #000000;
+}
 
-@media all and (max-width: 414px) {
+.add-white-1 {
+  left: 11%;
+  border: 3px solid #000000;
+}
+
+.add-white-3 {
+  left: 29%;
+  border: 3px solid #000000;
+}
+
+.add-green {
+  left: 41%;
+}
+
+.image-green-2 {
+  bottom: 22%;
+}
+
+.add-yellow-5 {
+  left: 37%;
+  bottom: 39%;
+}
+
+.add-yellow-2 {
+  top: 36%;
+}
+
+.anywhere {
+  left: 3%;
+  width: 54%;
+}
+
+.anywheretxt {
+  left: 25%;
+  font-size: 15%;
+}
+
+.anywheretxt1 {
+  font-size: 11%;
+}
+
+.txt1 {
+  left: 17%;
+  top: 58%;
+}
+.txt2 {
+  left: 30%;
+  top: 58%;
+}
+.txt3 {
+  left: 52%;
+  top: 58%;
+}.txt4 {
+  left: 63%;
+  top: 58%;
+}
+}.txt5 {
+  left: 75%;
+  top: 58%;
+}
+/* экран для 414 */
+@media all and (min-width: 320px) and (max-width: 414px) {
   body, html {
-  width: 414px;
-  height: 1570px;
-  font-size: 88px;
+  /* width: 414px; */
+  height: 1300px;
+  /* font-size: 88px; */
   line-height: 108px;
 }
 }
 
-
+/* экран для 320 */
 @media all and (max-width: 320px) {
   body, html {
-  width: 320px;
-  height: 1150px;
-  font-size: 64px;
+  height: 144vh;
   line-height: 79px;
 }
 }
