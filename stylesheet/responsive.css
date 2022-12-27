@@ -1,5 +1,5 @@
 /* экран для 1920 */
-@media screen (min-width: 1440px) and (max-width: 1920px) {
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
   body, html {
     /* height: 578vh; */
     line-height: 494px;
@@ -7,7 +7,7 @@
 }
 
 /* экран для 1440 */
-@media screen (min-width: 1280px) and (max-width: 1440px) {
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
   body, html {
     height: 477vh;
     line-height: 409px;
@@ -15,7 +15,7 @@
 }
 
 /* экран для 1280 */
-@media screen (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   body, html {
     /* height: 434vh; */
     line-height: 356px;
@@ -23,7 +23,7 @@
 }
 
 /* экран для 1024 */
-@media screen (min-width: 834px) and (max-width: 1024px) {
+@media screen and (min-width: 834px) and (max-width: 1024px) {
   body, html {
     /* height: 361vh; */
     line-height: 294px;
@@ -31,7 +31,7 @@
 }
 
 /* экран для 834 */
-@media screen (min-width: 414px) and (max-width: 834px) {
+@media screen and (min-width: 414px) and (max-width: 834px) {
 
   body, html {
   /* height: 303vh; */
@@ -46,6 +46,9 @@
   left: 11%;
   border: 3px solid #000000;
 }
+.add-white-1:hover {
+  z-index: 3;
+}
 
 .add-white-3 {
   left: 29%;
@@ -57,7 +60,7 @@
 }
 
 .image-green-2 {
-  bottom: 22%;
+  top: 64%;
 }
 
 .add-yellow-5 {
@@ -67,6 +70,7 @@
 
 .add-yellow-2 {
   top: 36%;
+  height: 17%;
 }
 
 .anywhere {
@@ -76,54 +80,162 @@
 
 .anywheretxt {
   left: 25%;
-  font-size: 15%;
+  font-size: 10%;
 }
 
 .anywheretxt1 {
-  font-size: 11%;
+  font-size: 9%;
 }
 
 .txt1 {
-  left: 17%;
-  top: 58%;
+  left: 15%;
+  top: 40%;
 }
 .txt2 {
-  left: 30%;
-  top: 58%;
+  left: 29%;
+  top: 40%;
 }
 .txt3 {
   left: 52%;
-  top: 58%;
+  top: 40%;
 }
 .txt4 {
-  left: 63%;
-  top: 58%;
+  left: 61%;
+  top: 40%;
 }
 .txt5 {
-  left: 75%;
-  top: 58%;
+  left: 73%;
+  top: 40%;
 }
 
 .add-white-3 {
   border: 3px solid #000000;
 }
+
+.add-green-5 {
+  bottom: 9%;
+}
+
+.add-green-8 {
+  right: 30%;
+  bottom: 1%;
+}
 }
 
 /* экран для 414 */
-@media screen (min-width: 320px) and (max-width: 414px) {
+@media screen and (min-width: 320px) and (max-width: 414px) {
   body, html {
   /* height: 188vh; */
   line-height: 108px;
+    aspect-ratio: 1 / 4;
+    font-size: 35vw;
 }
 
 .add-yellow {
   width: 66%;
-  height:
+  height: 12%;
+  left: 2%;
+}
+
+.best {
+  font-size: 45%;
+}
+
+.add-white {
+  width: 54%;
+  height: 13%;
+  left: 43%;
+  top: 9%;
+  border: 3px solid #000000;
+}
+
+.sitdown {
+  font-size: 21%;
+}
+
+.add-yellow-1 {
+  width: 64%;
+  height: 11%;
+  left: 4%;
+  top: 19%;
+}
+
+.add-white-1 {
+  width: 23%;
+  height: 16%;
+  left: 4%;
+  top: 32%;
+}
+.add-white-1:hover {
+  z-index: 3;
+}
+
+.add-green {
+  width: 57%;
+  left: 40%;
+  top: 32%;
+  height: 13%;
+}
+
+.add-yellow-2 {
+  width: 52%;
+  height: 13%;
+  top: 47%;
+}
+
+.add-white-3 {
+  border: 3px solid #000000;
+  height: 8%;
+  width: 30%;
+  top: 38%;
+}
+
+.add-green-5 {
+  bottom: 9%;
+}
+
+.add-green-8 {
+  right: 30%;
+  bottom: 1%;
+}
+.anywhere {
+  left: 3%;
+  width: 54%;
+}
+
+.anywheretxt {
+  left: 25%;
+  font-size: 10%;
+}
+
+.anywheretxt1 {
+  font-size: 9%;
+}
+
+.txt1 {
+  left: 15%;
+  top: 40%;
+}
+.txt2 {
+  left: 29%;
+  top: 40%;
+}
+.txt3 {
+  left: 52%;
+  top: 40%;
+}
+.txt4 {
+  left: 61%;
+  top: 40%;
+}
+.txt5 {
+  left: 73%;
+  top: 40%;
 }
 }
 
 /* экран для 320 */
-@media screen (max-width: 320px) {
+@media screen and (max-width: 320px) {
   body, html {
   /* height: 144vh; */
   line-height: 79px;
@@ -131,4 +243,6 @@
 .add-white {
   border: 0.5px solid #000000;
 }
+}
+
 }
