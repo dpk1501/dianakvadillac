@@ -9,7 +9,7 @@
 /* экран для 1440 */
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
   body, html {
-    height: 477vh;
+    /* height: 477vh; */
     line-height: 409px;
   }
 }
