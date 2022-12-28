@@ -160,11 +160,17 @@
   top: 19%;
 }
 
+.kva {
+  top: 14%;
+  left: -29%;
+  font-size: 55%;
+}
 .add-white-1 {
-  width: 23%;
-  height: 16%;
-  left: 4%;
+  width: 24%;
+  height: 12%;
+  left: 12%;
   top: 32%;
+  border: 3px solid #000000;
 }
 .add-white-1:hover {
   z-index: 3;
@@ -180,14 +186,19 @@
 .add-yellow-2 {
   width: 52%;
   height: 13%;
-  top: 47%;
+  top: 48%;
 }
 
 .add-white-3 {
   border: 3px solid #000000;
-  height: 8%;
-  width: 30%;
+  height: 9%;
+  width: 35%;
   top: 38%;
+}
+
+.moscow {
+  font-size: 22%;
+  left: 10%;
 }
 
 .add-green-5 {
@@ -199,38 +210,143 @@
   bottom: 1%;
 }
 .anywhere {
-  left: 3%;
-  width: 54%;
+  left: 0;
+  width: 49%;
+  height: 9%;
+  bottom: 16%;
 }
 
 .anywheretxt {
-  left: 25%;
+  left: 20%;
   font-size: 10%;
 }
 
 .anywheretxt1 {
-  font-size: 9%;
+  font-size: 7.5%;
 }
 
 .txt1 {
-  left: 15%;
-  top: 40%;
+  left: 0%;
+  top: 32%;
 }
 .txt2 {
-  left: 29%;
-  top: 40%;
+  left: 20%;
+  top: 32%;
 }
 .txt3 {
   left: 52%;
-  top: 40%;
+  top: 32%;
 }
 .txt4 {
-  left: 61%;
-  top: 40%;
+  left: 67%;
+  top: 32%;
 }
 .txt5 {
-  left: 73%;
-  top: 40%;
+  left: 85%;
+  top: 32%;
+}
+
+.image-green {
+  height: 11%;
+  top: 45.5%;
+  width: 55%;
+}
+
+.add-yellow-4 {
+  height: 6%;
+  top: 56%;
+  width: 18%;
+}
+.road {
+  font-size: 15%;
+  top: 30%;
+  left: 3%
+}
+.always {
+  width: 30%;
+  left: 65%;
+  top: 30%;
+}
+.arc {
+  height: 10%;
+  bottom: 27%;
+  width: 50%;
+}
+
+.add-white-4 {
+  height: 6%;
+  top: 56.6%;
+  width: 18%;
+  border: 2px solid #000000;
+}
+
+.george {
+  font-size: 15%;
+}
+.berlin {
+  font-size: 19%;
+}
+
+.add-green-6 {
+  height: 12%;
+  bottom: 3%;
+  width: 50%;
+  left: 2%;
+}
+
+.add-yellow-5 {
+  height: 3%;
+  top: 62%;
+  left: 40%;
+}
+
+.add-yellow-6 {
+  width: 62%;
+  height: 10%;
+  bottom: -5%;
+}
+
+.add-yellow-7 {
+  height: 5%;
+  bottom: 9%;
+  width: 15%;
+  left: 50%;
+}
+
+.add-green-8 {
+  height: 5%;
+  bottom: 3%;
+  width: 22%;
+  left: 60%;
+}
+
+.add-green-5 {
+  height: 9%;
+  bottom: 10%;
+  width: 37%;
+}
+
+.image-green-2:hover {
+  z-index: 4;
+}
+.image-green-2 {
+  top: 68%;
+}
+.besttaxi {
+  font-size: 33%;
+  top: 30%;
+  left: 2%;
+}
+
+.end {
+  top: 13%;
+}
+
+.dash {
+  height: 18%;
+}
+.dash {
+  height: 18%;
 }
 }
 
@@ -239,10 +355,225 @@
   body, html {
   /* height: 144vh; */
   line-height: 79px;
+  aspect-ratio: 1 / 4;
+  font-size: 35vw;
 }
+.add-yellow {
+  width: 66%;
+  height: 12%;
+  left: 2%;
+}
+
+.best {
+  font-size: 45%;
+}
+
 .add-white {
-  border: 0.5px solid #000000;
+  width: 54%;
+  height: 13%;
+  left: 43%;
+  top: 9%;
+  border: 3px solid #000000;
 }
+
+.sitdown {
+  font-size: 21%;
+}
+
+.add-yellow-1 {
+  width: 64%;
+  height: 11%;
+  left: 4%;
+  top: 19%;
+}
+
+.kva {
+  top: 14%;
+  left: -29%;
+  font-size: 55%;
+}
+.add-white-1 {
+  width: 24%;
+  height: 12%;
+  left: 12%;
+  top: 32%;
+  border: 3px solid #000000;
+}
+.add-white-1:hover {
+  z-index: 3;
+}
+
+.add-green {
+  width: 57%;
+  left: 40%;
+  top: 32%;
+  height: 13%;
+}
+
+.add-yellow-2 {
+  width: 52%;
+  height: 13%;
+  top: 48%;
+}
+
+.add-white-3 {
+  border: 3px solid #000000;
+  height: 9%;
+  width: 35%;
+  top: 38%;
+}
+
+.moscow {
+  font-size: 22%;
+  left: 10%;
+}
+
+.add-green-5 {
+  bottom: 9%;
+}
+
+.add-green-8 {
+  right: 30%;
+  bottom: 1%;
+}
+.anywhere {
+  left: 0;
+  width: 49%;
+  height: 9%;
+  bottom: 16%;
+}
+
+.anywheretxt {
+  left: 20%;
+  font-size: 10%;
+}
+
+.anywheretxt1 {
+  font-size: 7.5%;
+}
+
+.txt1 {
+  left: 0%;
+  top: 32%;
+}
+.txt2 {
+  left: 20%;
+  top: 32%;
+}
+.txt3 {
+  left: 52%;
+  top: 32%;
+}
+.txt4 {
+  left: 67%;
+  top: 32%;
+}
+.txt5 {
+  left: 85%;
+  top: 32%;
+}
+
+.image-green {
+  height: 11%;
+  top: 45.5%;
+  width: 55%;
+}
+
+.add-yellow-4 {
+  height: 6%;
+  top: 56%;
+  width: 18%;
+}
+.road {
+  font-size: 15%;
+  top: 30%;
+  left: 3%
+}
+.always {
+  width: 30%;
+  left: 65%;
+  top: 30%;
+}
+.arc {
+  height: 10%;
+  bottom: 27%;
+  width: 50%;
+}
+
+.add-white-4 {
+  height: 6%;
+  top: 56.6%;
+  width: 18%;
+  border: 2px solid #000000;
+}
+
+.george {
+  font-size: 15%;
+}
+.berlin {
+  font-size: 19%;
+}
+
+.add-green-6 {
+  height: 12%;
+  bottom: 3%;
+  width: 50%;
+  left: 2%;
+}
+
+.add-yellow-5 {
+  height: 3%;
+  top: 62%;
+  left: 40%;
+}
+
+.add-yellow-6 {
+  width: 62%;
+  height: 10%;
+  bottom: -5%;
+}
+
+.add-yellow-7 {
+  height: 5%;
+  bottom: 9%;
+  width: 15%;
+  left: 50%;
+}
+
+.add-green-8 {
+  height: 5%;
+  bottom: 3%;
+  width: 22%;
+  left: 60%;
+}
+
+.add-green-5 {
+  height: 9%;
+  bottom: 10%;
+  width: 37%;
+}
+
+.image-green-2:hover {
+  z-index: 4;
+}
+.image-green-2 {
+  top: 68%;
+}
+.besttaxi {
+  font-size: 33%;
+  top: 30%;
+  left: 2%;
+}
+
+.end {
+  top: 13%;
+}
+
+.dash {
+  height: 18%;
+}
+.dash {
+  height: 18%;
 }
 
 }
