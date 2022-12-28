@@ -789,7 +789,7 @@ body, html {
 }
   /* задняя надпись */
   .kvadillac {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
@@ -802,7 +802,7 @@ body, html {
     z-index: 0;
   }
   .kvadillac_1 {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
@@ -816,7 +816,7 @@ body, html {
     line-height: 100%;
     }
   .kvadillac_2 {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
@@ -830,7 +830,7 @@ body, html {
     z-index: 0;
   }
   .kvadillac_3 {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
@@ -843,7 +843,7 @@ body, html {
     line-height: 100%;
   }
   .kvadillac_4 {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
@@ -855,7 +855,7 @@ body, html {
     line-height: 100%;
   }
   .kvadillac_5 {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
@@ -869,7 +869,7 @@ body, html {
     z-index: 0;
   }
   .kvadillac_6 {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
@@ -883,7 +883,7 @@ body, html {
     z-index: 0;
   }
   .kvadillac_7 {
-    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue';
     font-weight: bold;
     font-size: 100%;
     position: absolute;
